@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%    Preamble       %%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\setlength\parindent{0pt}
+
+%This sets the page margins. Default doesn't use enough of the page.
+\usepackage[top=0.8in, bottom=0.8in, left=1in, right=1in]{geometry}
+
+%This lets you make URLs with \url or \href
+\usepackage{hyperref}
+
+%This lets you add pics 
+\usepackage{graphicx}
+\usepackage{float}
+
+%Make a command to produce lines
+\newcommand{\myline}{\par
+  \kern0pt % space above the rules
+  \hrule height 1.5pt
+  \kern2pt % space between the rules
+  \hrule height 0.8pt
+  \kern0pt % space below the rules
+}
+
+%%%%%%%%%%%%%%%%%%%    Page 1     %%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}% Center all text
+
+\myline
+\myline
+\vspace*{5mm}
+{\scshape {\LARGE Your Personal Wellbeing Report\\[0.2\baselineskip]} % Title
+\vspace*{5mm}
+\myline
+\myline
+\vspace*{8mm}
+\pagenumbering{gobble} %gets rid of the page number
+} 
+
+\end{center}
+
+\large Thank you for participating in our research! Although there are several models of wellbeing, Dr Seligman, founder of the field of positive psychology, defines wellbeing in terms of five pillars: Positive emotions, Engagement, Relationship, Meaning, and Accomplishment (PERMA). You completed the PERMA-Profiler, which measures these five domains of wellbeing, along with how much negative emotion you tend to experience. This PERMA Profile shows how you scored on these dimensions of wellbeing:\\
+
+<<permaplot, echo = FALSE, out.width='6in',out.height='5in'>>=
+permaplot
+@
+\vspace*{5mm}
+\large Higher scores on P, E, R, M, and A, and lower scores on N typically reflect greater flourishing, but different profiles might be best for different types of people. Dr Margaret Kern (www.margaretkern.org), who developed the PERMA-Profiler, is currently researching optimal profiles. Descriptions of each of these domains can be found on the next page.
+
+%%%%%%%%%%%%%%%%%%%    Page 2     %%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{center}
+\myline
+\section*{P and N = Positive and Negative Emotions}
+\large  \textbf{Emotions} are an important part of our well-being. Emotions can range from very negative to very positive, and range from high arousal (e.g., excitement, explosive) to low arousal (e.g., calm, relaxed, sad). For Positive emotion, the PERMA-Profiler measures general tendencies toward feeling contentment and joy. For Negative emotion, the Profiler measures tendencies toward feeling, sad, anxious, and angry.
+\vspace*{3mm}
+\myline
+\section*{E = Engagement}
+\large \textbf{Engagement} refers to being absorbed, interested, and involved in an activity or the world itself. Very high levels of engagement are known as a state called ``flow'', in which you are so completely absorbed in an activity that you lose all sense of time.
+\vspace*{3mm}
+\myline
+\section*{R = Relationships}
+\large \textbf{Relationships} refer to feeling loved, supported, and valued by others. Having positive relationships with others is an important part of life going well. Other people matter!
+\vspace*{3mm}
+\myline
+\section*{M = Meaning}
+\large \textbf{Meaning} refers to having a sense of purpose in life, a direction where life is going, feeling that life is valuable and worth living, or connecting to something greater than ourselves, such as religious faith, a charity or a personally meaningful goal. Meaning provides a sense that life matters.
+\vspace*{3mm}
+\myline
+\section*{A = Accomplishment}
+\large \textbf{Accomplishment} can be objective, marked by honours and awards received, but feelings of mastery and achievement are also important. The Profiler measures subjective feelings of accomplishment and staying on top of daily responsibilities. It involves working toward and reaching goals, and feeling able to complete tasks and daily responsibilities.
+\vspace*{3mm}
+\myline
+\vspace*{8mm}
+\large These descriptions were written by and are used with permission from Dr Margaret Kern.\\
+\vspace*{5mm}
+For more information on Positive Psychology, see www.authentichappiness.com.
+\end{center}
+\end{document}
