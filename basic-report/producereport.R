@@ -44,7 +44,6 @@ plotperma <- function(participantID) {
   permaplot <- ggplot(data=indivscores, aes(x=scale, y=score, fill=scale))
   permaplot <- permaplot + geom_bar(stat = "identity", position="dodge", width=0.8)
   permaplot <- permaplot + xlab("") + ylab("")
-  #permaplot <- permaplot + ylab("")
   permaplot <- permaplot + scale_x_discrete(limits=c("P",
                                                      "E",
                                                      "R",
