@@ -8,7 +8,6 @@
 #install.packages("lubridate")
 #install.packages("reshape2")
 #install.packages("knitr")
-#install.packages("ezknitr")
 #install.packages("tidyr")
 
 # Load required packages (assumes these are already installed)
@@ -17,7 +16,6 @@ require(dplyr)
 require(lubridate)
 require(reshape2)
 require(knitr)
-require(ezknitr)
 require(tidyr)
 
 #########################################
