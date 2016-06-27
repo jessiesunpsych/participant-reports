@@ -31,7 +31,6 @@ R <- rowMeans(dat[,8:10])
 M <- rowMeans(dat[,11:13])
 A <- rowMeans(dat[,14:16])
 N <- rowMeans(dat[,17:19])
-id <- dat[1]
 permascores <- data.frame(cbind(IDlist,P,E,R,M,A,N)) # Create a new data frame with participant IDs and the six subscale scores only
 
 # Create function to plot bar graph
