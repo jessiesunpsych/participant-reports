@@ -21,6 +21,6 @@ These scripts (1) compute scores and create individual bar charts based on these
 
 2. Full installation of [LaTeX](https://www.latex-project.org/)
 
-3. R packages (can be installed by uncommenting relevant lines in `producereport.R`): `ggplot2`, `dplyr`, `lubridate`, `reshape2`, `knitr`, `ezknitr`, `tidyr`
+3. R packages (can be installed by uncommenting relevant lines in `producereport.R`): `ggplot2`, `dplyr`, `lubridate`, `reshape2`, `knitr`, `tidyr`
 
 **Contributions:** Rowan Jacques-Hamilton created a super-comprehensive version of these scripts; Jessie Sun then pared them back for simplicity to create basic and percentile versions.
