@@ -23,4 +23,4 @@ These scripts (1) compute scores and create individual bar charts based on these
 
 3. R packages (can be installed by uncommenting relevant lines in `producereport.R`): `ggplot2`, `dplyr`, `lubridate`, `reshape2`, `knitr`, `ezknitr`, `tidyr`
 
-**Contributions:** Rowan Jacques-Hamilton created a super-comprehensive version of these scripts; Jessie Sun then pared them back for simplicity.
+**Contributions:** Rowan Jacques-Hamilton created a super-comprehensive version of these scripts; Jessie Sun then pared them back for simplicity to create basic and percentile versions.
