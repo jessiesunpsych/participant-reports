@@ -1,5 +1,5 @@
 # Set working directory to where you've saved these scripts
-setwd("/Users/Jessie/Dropbox/Documents/Generating Reports using R/Comparison Report")
+setwd("/percentile-report")
 
 # Read data file
 dat <-read.csv("permadata.csv", stringsAsFactors = FALSE, na.strings = "")
