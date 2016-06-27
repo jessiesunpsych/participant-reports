@@ -1,1 +1,1 @@
-This version transforms participants' raw scores into percentile scores (based on available estimates of population means and standard deviations).
+This version uses percentile scores instead of raw scores for the bar chart. Percentile scores are calculated from available estimates of population means and standard deviations.
